@@ -1,0 +1,9 @@
+#ifndef PRINTF_C
+#define PRINTF_C
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
+
+int _putchar(char c);
+int _printf(const char *format, ...);
+#endif
