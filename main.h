@@ -69,8 +69,10 @@ int write_number(int is_positive, int ind, char buffer[],
 int write_num(int ind, char bff[], int flags, int width, int precision,
 	int length, char padd, char extra_c);
 
+
 int is_printable(char);
 int is_digit(char);
 
 long int convert_size_number(long int num, int size);
+
 #endif
